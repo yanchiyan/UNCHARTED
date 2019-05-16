@@ -1,0 +1,42 @@
+body,html{max-width: 100%; max-height: 100%; background-clip:content-box; }
+body {
+    background-image: url("../SVG/test-home/test_q_bg.svg");
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+.icon_logo{
+  fill: #ffffff;
+  position: absolute;
+  top: 4%;
+  left: 0%;
+  width: 7%;
+  height: 7%;
+  opacity: 0.6;
+
+}
+.icon_logo:hover{
+  opacity:1;
+  transition:0.5s;
+}
+/* 題目 */
+.word{
+  position: absolute;
+  display: block;
+  top: 12%;
+  left: 14%;
+  width: 73%;
+	height: 73%;
+}
+.start{
+  position: absolute;
+  display: block;
+  top: 68%;
+  left: 44%;
+  width: 12%;
+	height: 12%;
+  opacity: 0.6;
+}
+.start:hover{
+  transition: 0.2s;
+	opacity: 1;
+}

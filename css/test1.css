@@ -1,0 +1,83 @@
+body,html{max-width: 100%; max-height: 100%; background-clip:content-box; }
+body {
+    background-image: url("../SVG/test-home/test_q_bg.svg");
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+
+.word{
+  position: absolute;
+  display: block;
+  top: -5%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+}
+.q2-1{
+  position: absolute;
+	top: 39%;
+	left: 18%;
+	width: 50vh;
+  height: 50vh;
+}
+.q0201{
+  position: absolute;
+	top: 39%;
+	left: 18%;
+	width: 50vh;
+  height: 50vh;
+	display: block;
+	background-color: #566c6c;
+	border-radius: 50%;
+  opacity:0;
+}
+.q0201:hover{
+  background-image: url("../SVG/test-home/q2-1.svg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: 52%;
+  opacity:0.7;
+}
+.q2-1icon{
+  position: absolute;
+  display: block;
+  top: 39%;
+  left: 5%;
+  width: 50%;
+  height: 50%;
+}
+
+
+.q2-2{
+  position: absolute;
+	top: 39%;
+	left: 58%;
+	width: 50vh;
+  height: 50vh;
+}
+.q0202{
+  position: absolute;
+	top: 39%;
+	left: 58%;
+	width: 50vh;
+  height: 50vh;
+	display: block;
+	background-color: #566c6c;
+	border-radius: 50%;
+  opacity:0;
+}
+.q0202:hover{
+  background-image: url("../SVG/test-home/q2-2.svg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: 45%;
+  opacity:0.7;
+}
+.q2-2icon{
+  position: absolute;
+  display: block;
+  top: 39%;
+  left: 45%;
+  width: 50%;
+  height: 50%;
+}
